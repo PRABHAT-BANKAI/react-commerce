@@ -8,7 +8,7 @@ import "./App.css"; // Import CSS
 const App = () => {
   return (
     <div>
-      {/* <nav className="navbar">
+      <nav className="navbar">
         <ul className="nav-links">
           <li>
             <Link to="/">Home page</Link>
@@ -24,13 +24,11 @@ const App = () => {
 
       <div className="content">
         <Routes>
-          
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div> */}
-      <h1>hello</h1>
+      </div>
     </div>
   );
 };
